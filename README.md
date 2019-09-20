@@ -5,12 +5,12 @@
 
 ## Docker
 
-### Create a Docker container
-`docker build -t container_name .`
+### Create a Docker image from a Dockerfile
+`docker build -t image_name .`
 
-### Create a Docker instance
-`docker create --name=instace_name container_name:latest`
+### Create a new container
+`docker create --name=container_name image_name:latest`
 
 ### Run and Stop the image
-`docker start instance_name` or
-`docker stop instance_name`
+`docker start container_name` or
+`docker stop container_name`
