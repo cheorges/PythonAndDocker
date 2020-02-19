@@ -11,6 +11,5 @@
 ### Create a new container
 `docker create --name=container_name image_name:latest`
 
-### Run and Stop the image
-`docker start container_name` or
-`docker stop container_name`
+### Run the image
+`docker container run --rm -d container_name`
